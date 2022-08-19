@@ -3,9 +3,6 @@ import { defineConfig, fromEntries, ruleFromStandard } from '../utils'
 import { TSEquivalents, resolverExtensionsWithTS } from '../constants'
 
 export default defineConfig({
-  extends: [
-    'plugin:import/typescript',
-  ],
   settings: {
     'import/extensions': resolverExtensionsWithTS,
     'import/external-module-folders': ['node_modules', 'node_modules/@types'],
