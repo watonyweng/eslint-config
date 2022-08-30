@@ -17,16 +17,17 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.2
         with:
-          version: 7.9.0
+          version: 7.9.5
 
       - name: Install dependency
         run: pnpm install
 
-      - name: PNPM build
+      - name: Pnpm build
         run: pnpm build
 
       - name: Publish to NPM
