@@ -2,7 +2,7 @@
   "name": "@watonyweng/eslint-config-monorepo",
   "version": "0.0.12",
   "private": true,
-  "packageManager": "pnpm@7.23.0",
+  "packageManager": "pnpm@7.24.3",
   "license": "MIT",
   "author": "Watony Weng <https://github.com/watonyweng>",
   "scripts": {
