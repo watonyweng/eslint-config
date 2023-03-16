@@ -9,7 +9,7 @@ importers:
       eslint: ^8.23.0
       pnpm: ^7.22.0
       standard-version: ^9.5.0
-      typescript: ^4.8.4
+      typescript: ^5.0.0
       unbuild: ^1.0.2
     devDependencies:
       '@watonyweng/eslint-config': link:packages/eslint-config
@@ -17,7 +17,7 @@ importers:
       eslint: 8.31.0
       pnpm: 7.22.0
       standard-version: 9.5.0
-      typescript: 4.9.4
+      typescript: 5.0.2
       unbuild: 1.0.2
 
   packages/eslint-config:
@@ -2960,6 +2960,12 @@ packages:
   /typescript/4.9.4:
     resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
     engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/5.0.2:
+    resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
+    engines: {node: '>=12.20'}
     hasBin: true
     dev: true
 
