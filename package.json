@@ -2,7 +2,7 @@
   "name": "@watonyweng/eslint-config-monorepo",
   "version": "0.0.12",
   "private": true,
-  "packageManager": "pnpm@8.13.1",
+  "packageManager": "pnpm@8.14.0",
   "license": "MIT",
   "author": "Watony Weng <https://github.com/watonyweng>",
   "scripts": {
@@ -15,7 +15,7 @@
     "@watonyweng/eslint-config": "workspace:*",
     "@watonyweng/eslint-plugin": "workspace:*",
     "eslint": "^8.31.0",
-    "pnpm": "8.13.1",
+    "pnpm": "8.14.0",
     "standard-version": "^9.5.0",
     "typescript": "^5.0.2",
     "unbuild": "^2.0.0"
