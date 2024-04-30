@@ -18,8 +18,8 @@ importers:
         specifier: ^8.31.0
         version: 8.57.0
       pnpm:
-        specifier: 8.15.6
-        version: 8.15.6
+        specifier: 8.15.8
+        version: 8.15.8
       standard-version:
         specifier: ^9.5.0
         version: 9.5.0
@@ -3307,8 +3307,8 @@ packages:
       pathe: 1.1.2
     dev: true
 
-  /pnpm@8.15.6:
-    resolution: {integrity: sha512-d7iem+d6Kwatj0A6Gcrl4il29hAj+YrTI9XDAZSVjrwC7gpq5dE+5FT2E05OjK8poF8LGg4dKxe8prah8RWfhg==}
+  /pnpm@8.15.8:
+    resolution: {integrity: sha512-0aAp4aRHrZC8ls1YsPrUhtKZPVMYVjlve6vy2D6xgju4PFo9D8GPZ1stEDIdSesWH+zjb+gTSqWCPs0hX+7Tkg==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
