@@ -22,7 +22,7 @@
     "build": "unbuild"
   },
   "peerDependencies": {
-    "eslint": "^8.23.0",
+    "eslint": "^8.23.0 || ^9.0.0",
     "typescript": "^4.8.4 || ^5.0.0"
   },
   "publishConfig": {
