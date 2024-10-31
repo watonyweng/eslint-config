@@ -23,7 +23,7 @@
     "build": "unbuild"
   },
   "peerDependencies": {
-    "eslint": "^8.23.0"
+    "eslint": "^8.23.0 || ^9.0.0"
   },
   "publishConfig": {
     "access": "public"
